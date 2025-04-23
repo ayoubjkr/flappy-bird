@@ -107,5 +107,5 @@ class Game:
             self.highest_score = max(self.highest_score, self.score)
         
         # Display game over text
-        self.draw_text("GAME OVER!", FONT, WHITE, SCREEN_WIDTH // 2 - 180, 100)
+        self.draw_text("GAME OVER!", FONT, WHITE, SCREEN_WIDTH // 2 - 120, 100)
         self.draw_text(f"BEST: {self.highest_score}", SMALL_FONT, WHITE, SCREEN_WIDTH // 2 - 70, 240)
