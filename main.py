@@ -30,9 +30,9 @@ def main():
     # Create buttons
     restart_button = Button(SCREEN_WIDTH // 2 - 100, 420, None, "Restart", 200, 50)
     menu_button = Button(SCREEN_WIDTH // 2 - 100, 500, None, "MENU", 200, 50)
-    play_button = Button(SCREEN_WIDTH // 2 - 100, 200, None, "NEW GAME", 250, 50)
-    scores_button = Button(SCREEN_WIDTH // 2 - 100, 270, None, "HIGH SCORES", 250, 50)
-    quit_button = Button(SCREEN_WIDTH // 2 - 100, 340, None, "QUIT", 250, 50)
+    play_button = Button(SCREEN_WIDTH // 2 - 250 // 2, 200, None, "NEW GAME", 250, 50)
+    scores_button = Button(SCREEN_WIDTH // 2 - 250 // 2, 270, None, "HIGH SCORES", 250, 50)
+    quit_button = Button(SCREEN_WIDTH // 2 - 250 // 2, 340, None, "QUIT", 250, 50)
     back_button = Button(SCREEN_WIDTH // 2 - 100, 500, None, "BACK", 200, 50)
     submit_button = Button(SCREEN_WIDTH // 2 - 100, 350, None, "PLAY", 200, 50)
     
