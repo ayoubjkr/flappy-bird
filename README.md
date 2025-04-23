@@ -29,7 +29,7 @@ A Python implementation of the classic Flappy Bird game using Pygame.
 
 ### Game Over Screen
 
-![Game Over Screenshot](screenshots/game_over)
+![Game Over Screenshot](screenshots/game_over.png)
 
 ### High Scores Screen
 
